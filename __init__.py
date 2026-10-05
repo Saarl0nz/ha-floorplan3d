@@ -30,18 +30,19 @@ def _version() -> str:
         return "0"
 
 
+def _js_path() -> Path:
+    """JS-Datei liegt im Unterordner frontend oder direkt neben dieser Datei."""
+    sub = _DIR / "frontend" / "floorplan3d-panel.js"
+    return sub if sub.exists() else _DIR / "floorplan3d-panel.js"
+
+
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Panel einrichten."""
     data = hass.data.setdefault(DOMAIN, {})
     if not data.get("static"):
+        js_path = await hass.async_add_executor_job(_js_path)
         await hass.http.async_register_static_paths(
-            [
-                StaticPathConfig(
-                    STATIC_URL,
-                    str(_DIR / "frontend" / "floorplan3d-panel.js"),
-                    False,
-                )
-            ]
+            [StaticPathConfig(STATIC_URL, str(js_path), False)]
         )
         data["static"] = True
 

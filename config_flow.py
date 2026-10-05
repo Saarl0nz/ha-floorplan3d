@@ -1,10 +1,8 @@
-"""Einrichtung über die Oberfläche."""
+"""Einrichtung über die Oberfläche (ein Klick, keine Eingaben nötig)."""
 
 from __future__ import annotations
 
 from typing import Any
-
-import voluptuous as vol
 
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
 
@@ -21,12 +19,6 @@ class Floorplan3dConfigFlow(ConfigFlow, domain=DOMAIN):
     ) -> ConfigFlowResult:
         if self._async_current_entries():
             return self.async_abort(reason="single_instance_allowed")
-        if user_input is not None:
-            title = user_input.get(CONF_TITLE) or DEFAULT_TITLE
-            return self.async_create_entry(title=title, data={CONF_TITLE: title})
-        return self.async_show_form(
-            step_id="user",
-            data_schema=vol.Schema(
-                {vol.Required(CONF_TITLE, default=DEFAULT_TITLE): str}
-            ),
+        return self.async_create_entry(
+            title=DEFAULT_TITLE, data={CONF_TITLE: DEFAULT_TITLE}
         )
