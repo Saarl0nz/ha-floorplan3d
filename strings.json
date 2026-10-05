@@ -1,0 +1,12 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up 3D House",
+        "description": "Adds the 3D House panel to the sidebar. The plan is edited inside the panel.",
+        "data": { "title": "Sidebar name" }
+      }
+    },
+    "abort": { "single_instance_allowed": "3D House is already set up." }
+  }
+}

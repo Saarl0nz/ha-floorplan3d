@@ -1,0 +1,12 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "3D Haus einrichten",
+        "description": "Legt den Eintrag „3D Haus“ in der Seitenleiste an. Der Plan wird danach direkt im Panel bearbeitet.",
+        "data": { "title": "Name in der Seitenleiste" }
+      }
+    },
+    "abort": { "single_instance_allowed": "3D Haus ist bereits eingerichtet." }
+  }
+}
