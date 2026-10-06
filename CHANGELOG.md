@@ -1,5 +1,9 @@
 # Änderungen
 
+## 1.18.2
+- Neu: Dunstabzugshaube (Wandhaube, Kopffreihaube, Flachschirm, Inselhaube) mit Lüfter, Licht und Leistung
+- Neu: Briefkasten (Standfuß, hängend, Paketbox) mit „Post da“-Anzeige
+
 ## 1.18.1
 - PV-Feld bleibt auf dem Hauptdach, wenn es um eine Gaube herum gelegt wird (legt sich nur noch auf die Gaube, wenn es darauf passt); neu „Liegt auf: Automatisch / Hauptdach / Gaubendach“
 - Gaube: Front lässt sich auch bei „Raumwand“ verkleiden (z. B. Schiefer); die Fenster der Raumwand bleiben ausgespart
