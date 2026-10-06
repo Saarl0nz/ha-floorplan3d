@@ -1,5 +1,16 @@
 # Änderungen
 
+## 1.17.1
+- Neu: Türklingel mit Kamera (Optik Ring, Reolink, Aqara G4 oder neutral) mit Kamerabild, Klingeltaste, Bewegung, Akku und Türöffner
+
+## 1.17.0
+- Schaltschrank: beliebig viele Geräte (Shelly, Sonoff, Aktoren, Sicherungen, FI …) mit eigener Zuordnung zu Licht, Schalter, Rollladen usw.; per Klick auf den Schrank schaltbar, Status-LED je Gerät, Sichtfenster/geschlossen/offen
+- Neu: Tastatur, Maus mit Mauspad, Rollcontainer, Wandbild (Motive oder eigenes Bild)
+
+## 1.16.1
+- Dach: Klick auf einen hellen Punkt fügt wieder eine Ecke ein (zum Anpassen der Dachfläche); Regenrinnen und Fallrohre werden nur noch im Menü geschaltet
+- Rinnen-/Fallrohr-Auswahl bleibt erhalten, wenn Dachecken eingefügt oder gelöscht werden
+
 ## 1.16.0
 - Hang / schiefes Gelände: Höhen an den vier Hausseiten einstellbar; Rasen, Wege, Zäune und Gartenobjekte folgen dem Hang, Treppen nach unten können am Gelände enden
 - Kühlschränke: Bauart (1 Tür, Kombi, Side-by-Side, French Door, Getränkekühler), Glasfront, Innenlicht, Eis-/Wasserspender, Display; smarte Werte (Soll-Temperaturen, Modus, zwei Türkontakte)
