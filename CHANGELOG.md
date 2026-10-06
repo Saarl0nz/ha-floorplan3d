@@ -1,5 +1,17 @@
 # Änderungen
 
+## 1.20.0
+- Neu: Spot-Feld (Licht) – beliebig viele Einbaustrahler als ein Objekt mit nur einem Symbol
+- Matrix im Bearbeiten-Modus: einzelne Spots entfernen/einsetzen und bis zu 4 Gruppen zuordnen, jede Gruppe mit eigenem Licht
+- Ein Klick schaltet das Feld; bei mehreren Gruppen öffnet sich die Liste der Gruppen
+- Raum: Lampen-Symbole (Schalter) aller Lampen im Raum auf einmal aus- oder einblenden
+
+## 1.19.0
+- Neu: Mülltonne (Garten & Außenanlage) – Restmüll grau, Gelbe Tonne, Papier blau, Bio grün/braun oder eigene Farbe
+- Abholtermin verknüpfbar (Sensor mit Tagen, Datum, Text wie „Morgen" oder Kalender) – Anzeige z. B. „So 11.10. (5 T.)", „Morgen", „Heute!"
+- Tonne füllt sich mit der Zeit bis zur Abholung (Abholrhythmus einstellbar) oder nach Füllstand-Sensor; Füllstandsanzeige vorne, Deckel hebt sich wenn voll
+- Deckel pulsiert am Tag vor und am Tag der Abholung (Vorlauf einstellbar)
+
 ## 1.18.2
 - Neu: Dunstabzugshaube (Wandhaube, Kopffreihaube, Flachschirm, Inselhaube) mit Lüfter, Licht und Leistung
 - Neu: Briefkasten (Standfuß, hängend, Paketbox) mit „Post da“-Anzeige
