@@ -1,5 +1,8 @@
 # Änderungen
 
+## 1.7.1
+- Fix: Klick/Doppelklick auf die hellen Kantenpunkte funktioniert jetzt mehrmals hintereinander; alle Punkte des Raums bleiben sichtbar, wenn eine Wand gewählt ist
+
 ## 1.7.0
 - Dach: Kniestock einstellbar (Dach setzt tiefer an, Wände enden unter der Dachschräge; Wände mit eigener Höhe bleiben stehen)
 - Dachgaube: Front als Wand mit einzelnen Fenstern (Anzahl, Breite, Höhe, Brüstung)
