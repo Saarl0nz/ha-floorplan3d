@@ -1,5 +1,14 @@
 # Änderungen
 
+## 1.9.0
+- Fensterbänke: Material innen/außen (Aluminium, Granit, Granit dunkel, Marmor, Naturstein, Holz, Kunststoff) mit Muster und eigener Farbe
+- Treppe nach unten öffnet den Boden; Öffnungen entstehen auch, wenn die Treppe knapp an einer Wand liegt
+- Bearbeiten: Treppen aus anderen Etagen, die auf der Etage ankommen, werden halbtransparent mit angezeigt
+- Dach: „Dachboden als eigene Etage anlegen“ (Dach wird damit ein eigenes Stockwerk)
+- „Farben zurücksetzen“ an jedem Objekt (Farben und Verglasung auf Standard)
+- PV: Modulfeld legt sich auf Gaubendächer; Module einzeln belegen, zu Strings gruppieren, Strings Wechselrichter-Eingängen (MPPT) zuordnen, kWp je String/Eingang
+- Plan-Vorlage im Bearbeiten-Modus ein-/ausblendbar (Knopf „Plan-Vorlage“)
+
 ## 1.8.0
 - Gauben als Teil des Dachs: Dachseite anklicken → „Gaube auf dieser Seite“; Position, Breite, Wandhöhe, Abstand von der Außenwand einstellbar, am blauen Punkt verschiebbar
 - In der Gaube laufen die Raumwände bis zur Gaubenhöhe hoch (Fenster wie gewohnt einsetzbar); alternativ Front mit Fenstern oder geschlossen
