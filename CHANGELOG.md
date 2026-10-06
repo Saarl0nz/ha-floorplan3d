@@ -1,5 +1,10 @@
 # Änderungen
 
+## 1.18.1
+- PV-Feld bleibt auf dem Hauptdach, wenn es um eine Gaube herum gelegt wird (legt sich nur noch auf die Gaube, wenn es darauf passt); neu „Liegt auf: Automatisch / Hauptdach / Gaubendach“
+- Gaube: Front lässt sich auch bei „Raumwand“ verkleiden (z. B. Schiefer); die Fenster der Raumwand bleiben ausgespart
+- Dach: Unterkante der Giebelfläche in der Höhe einstellbar
+
 ## 1.18.0
 - Dach: Giebel-/Firsthöhe direkt in Metern einstellbar (die Neigung ergibt sich daraus)
 - PV-Module: Modulmaße frei einstellbar, Modulfarbe (Full Black, Schwarz mit Alurahmen, Blau, Dunkelblau) – auch bei PV an Wand/Zaun/Balkon
