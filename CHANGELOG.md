@@ -1,5 +1,10 @@
 # Änderungen
 
+## 1.18.0
+- Dach: Giebel-/Firsthöhe direkt in Metern einstellbar (die Neigung ergibt sich daraus)
+- PV-Module: Modulmaße frei einstellbar, Modulfarbe (Full Black, Schwarz mit Alurahmen, Blau, Dunkelblau) – auch bei PV an Wand/Zaun/Balkon
+- Neu: Sat-Schüssel fürs Dach (auf Mast) und für die Wand, mit Durchmesser, Ausrichtung, Neigung und zweitem LNB
+
 ## 1.17.1
 - Neu: Türklingel mit Kamera (Optik Ring, Reolink, Aqara G4 oder neutral) mit Kamerabild, Klingeltaste, Bewegung, Akku und Türöffner
 
