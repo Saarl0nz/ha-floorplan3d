@@ -1,5 +1,18 @@
 # Änderungen
 
+## 1.8.0
+- Gauben als Teil des Dachs: Dachseite anklicken → „Gaube auf dieser Seite“; Position, Breite, Wandhöhe, Abstand von der Außenwand einstellbar, am blauen Punkt verschiebbar
+- In der Gaube laufen die Raumwände bis zur Gaubenhöhe hoch (Fenster wie gewohnt einsetzbar); alternativ Front mit Fenstern oder geschlossen
+- Gaubendach: Schlepp-, Flach- oder Satteldach; Verkleidung Putz, Schiefer, Holz, Blech, Ziegel mit eigener Farbe
+- Dachfläche wird im Bereich der Gaube ausgespart
+
+## 1.7.3
+- Türen (Haustür, Zimmertür): feste Glaselemente links, rechts und Oberlicht über die ganze Breite zum Anhaken; Breite, Höhe und Glasart einstellbar
+
+## 1.7.2
+- Neu im Katalog: „Festverglasung ohne Rollladen“ (Rollladen lässt sich weiterhin an jedem Fenster ein-/ausschalten)
+- Farbe von Rollladenkasten und Rollladenpanzer einstellbar (Fenster, Türen, Schiebetür, einzelner Rollladen)
+
 ## 1.7.1
 - Fix: Klick/Doppelklick auf die hellen Kantenpunkte funktioniert jetzt mehrmals hintereinander; alle Punkte des Raums bleiben sichtbar, wenn eine Wand gewählt ist
 
