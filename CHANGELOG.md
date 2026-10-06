@@ -1,5 +1,27 @@
 # Änderungen
 
+## 1.16.0
+- Hang / schiefes Gelände: Höhen an den vier Hausseiten einstellbar; Rasen, Wege, Zäune und Gartenobjekte folgen dem Hang, Treppen nach unten können am Gelände enden
+- Kühlschränke: Bauart (1 Tür, Kombi, Side-by-Side, French Door, Getränkekühler), Glasfront, Innenlicht, Eis-/Wasserspender, Display; smarte Werte (Soll-Temperaturen, Modus, zwei Türkontakte)
+- Garten: Gartenstuhl, Glastisch mit Mittelpfosten, Gartenbank (auch Bierbank, Steinbank), Gasgrill / Kugelgrill / Außenküche, Feuerschale mit Dreibein
+- Whirlpool (eckig, rund) und Pool (Stahlwand, Frame, eingelassen, aufblasbar) mit Steuerung: Temperatur, Filter, Blubber, Heizung, Licht, Abdeckung
+- Säulen: Material (Beton, Stahl, Edelstahl, Holz), über mehrere Etagen
+- Deckkraft für Terrassenüberdachung, Carport, Pavillon und PV-Modulfelder
+- Klick-Menü steuert jetzt auch Zahlenwerte, Auswahllisten und Warmwasser-/Pool-Heizungen
+
+## 1.15.0
+- Dach bleibt in der Ansicht seiner eigenen Etage (z. B. Dachboden) als durchsichtige Hülle sichtbar – der Raum liegt sichtbar im Dach
+- Fallrohre getrennt von den Regenrinnen abwählbar: insgesamt am Dach und je Dachkante
+- Hintergrund der 3D-Ansicht: Farbe, Himmel-Verlauf oder eigenes Bild
+- Neu im Außenbereich: Straße (Mittellinie, Gehwege, Parkstreifen) und Nachbarhaus (Geschosse, Dachform, Farben, auch halb durchsichtig)
+- Neue Geräte: Kaffeemaschine (Vollautomat, Siebträger, Kapsel, Filter), Fritteuse / Heißluftfritteuse, Router / Modem (FRITZ!Box), Serverschrank groß und klein, NAS, Home Assistant auf Raspberry Pi im Argon-Gehäuse
+
+## 1.14.0
+- Wärmepumpe Innengerät: eigene Felder für Warmwasserspeicher, Pufferspeicher, Vorlauf und Rücklauf; alle Werte stehen am Gerät
+- Knopf „Beschriftung“: Raumnamen, Raumwerte, Gerätewerte und Symbole einzeln oder alle ein-/ausblenden
+- Je Raum und je Gerät: „Beschriftung in der Ansicht ausblenden“
+- Sensor-Auswahl mit Suchfeld (bei langen Listen)
+
 ## 1.13.1
 - Neu: Brandschutztür (Stahl, mit Türschließer und Kennzeichnung T30 / T30-RS / T90); Türblatt „Stahl (Brandschutz)“ und Türschließer auch an anderen Türen wählbar
 
