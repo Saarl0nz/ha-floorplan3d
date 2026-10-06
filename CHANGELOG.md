@@ -1,5 +1,11 @@
 # Änderungen
 
+## 1.7.0
+- Dach: Kniestock einstellbar (Dach setzt tiefer an, Wände enden unter der Dachschräge; Wände mit eigener Höhe bleiben stehen)
+- Dachgaube: Front als Wand mit einzelnen Fenstern (Anzahl, Breite, Höhe, Brüstung)
+- Raum-Grundriss: „Ecke einfügen“, „Aussparung (z. B. Treppe)“, „Erker“ im Wand-Menü; Doppelklick auf den hellen Punkt fügt eine Ecke ein
+- Neu: Lichtschacht, Gelände (Hügel, Böschung, Aufschüttung)
+
 ## 1.6.2
 - Beim Update zeigt das Panel „Version alt → neu“ an; Versionsnummer steht im Menü ⋮
 - Icon (Ordner `brand`)
