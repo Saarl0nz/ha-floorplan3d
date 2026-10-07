@@ -1,5 +1,9 @@
 # Änderungen
 
+## 1.21.0
+- Neu: Geräte pro Raum ein- und ausblenden – im Raum-Menü über „☰ Auswahl" oder im Bearbeiten-Modus unter „Geräte im Raum-Menü"
+- „alle einblenden / alle ausblenden" pro Raum; die Auswahl wird mit dem Plan gespeichert
+
 ## 1.20.0
 - Neu: Spot-Feld (Licht) – beliebig viele Einbaustrahler als ein Objekt mit nur einem Symbol
 - Matrix im Bearbeiten-Modus: einzelne Spots entfernen/einsetzen und bis zu 4 Gruppen zuordnen, jede Gruppe mit eigenem Licht
