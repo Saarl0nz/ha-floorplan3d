@@ -1,5 +1,10 @@
 # Änderungen
 
+## 1.25.0
+- Neu: Raumbeschriftung (Name, Temperatur) frei verschieben – im Bearbeiten-Modus Raum wählen und den lila Punkt ziehen; „Beschriftung zurück in die Raummitte“
+- Beim Verschieben des ganzen Raums wandert die Beschriftung mit
+- Neu: Beschriftung/Symbol von Objekten versetzen (nach rechts, vorne, oben) – z. B. wenn Symbole übereinander liegen
+
 ## 1.24.0
 - Neu: Lichtgruppen – bereits gesetzte Spots/Lampen zu einer Gruppe zusammenfassen: ein gemeinsamer Schalter, in der Ansicht nur ein Symbol (am mittleren Spot)
 - Im Bearbeiten-Modus am Spot „Lichtgruppe“: neue Gruppe anlegen, Namen und Schalter festlegen, „Alle weiteren Einbaustrahler im Raum hinzufügen“, Gruppe auflösen
