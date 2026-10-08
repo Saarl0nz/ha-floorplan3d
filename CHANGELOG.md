@@ -1,5 +1,10 @@
 # Änderungen
 
+## 1.24.0
+- Neu: Lichtgruppen – bereits gesetzte Spots/Lampen zu einer Gruppe zusammenfassen: ein gemeinsamer Schalter, in der Ansicht nur ein Symbol (am mittleren Spot)
+- Im Bearbeiten-Modus am Spot „Lichtgruppe“: neue Gruppe anlegen, Namen und Schalter festlegen, „Alle weiteren Einbaustrahler im Raum hinzufügen“, Gruppe auflösen
+- Einzelne Einbaustrahler leuchten jetzt auch von oben sichtbar
+
 ## 1.23.0
 - PV-Feld: „Leistung / Symbol an diesem Feld anzeigen" – bei mehreren Feldern am selben (parallel gemessenen) Sensor den Wert nur einmal anzeigen; Hinweis im Feld, wenn der Sensor mehrfach verknüpft ist
 - PV-Leuchten wird bei gemeinsamem Sensor auf die kWp aller betroffenen Felder bezogen
