@@ -1,5 +1,13 @@
 # Änderungen
 
+## 1.22.0
+- Neu: Wetter, Sonne und Mond außen (Einstellungen → „Wetter, Sonne & Mond")
+- Sonne nach echtem Sonnenstand (Standort aus Home Assistant) mit Tagesbahn, Uhrzeiten und Himmelsrichtungen; Licht und Schatten folgen der Sonne
+- Mond mit aktueller Phase, Sterne bei klarer Nacht; Himmel färbt sich nach Tageszeit (Dämmerung, Nacht) und Bewölkung
+- Wolken, Regen, Starkregen, Schnee, Schneeregen, Hagel, Gewitter mit Blitzen, Nebel – aus einer Wetter-Entität, Wind treibt Regen und Wolken
+- Schnee, Reif, Tau oder Nässe auf Dach, PV-Modulen, Carport, Terrassendach, Garten und Gelände (automatisch aus Wetter, Temperatur und Luftfeuchte oder fest wählbar; optional Sensor „Schnee liegt")
+- Norden einstellbar; Vorschau mit simuliertem Wetter und Uhrzeit; Wetter-Anzeige unten rechts
+
 ## 1.21.0
 - Neu: Geräte pro Raum ein- und ausblenden – im Raum-Menü über „☰ Auswahl" oder im Bearbeiten-Modus unter „Geräte im Raum-Menü"
 - „alle einblenden / alle ausblenden" pro Raum; die Auswahl wird mit dem Plan gespeichert
