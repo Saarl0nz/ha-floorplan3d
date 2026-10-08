@@ -2,7 +2,7 @@
 
 # 3D-Hausplan für Home Assistant (Sidebar-Panel)
 
-Version 1.22.0 · eine einzige Datei, keine weiteren Abhängigkeiten (three.js ist eingebaut, läuft offline).
+Version 1.23.0 · eine einzige Datei, keine weiteren Abhängigkeiten (three.js ist eingebaut, läuft offline).
 
 ## Installation über HACS
 

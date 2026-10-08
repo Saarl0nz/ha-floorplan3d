@@ -1,5 +1,11 @@
 # Änderungen
 
+## 1.23.0
+- PV-Feld: „Leistung / Symbol an diesem Feld anzeigen" – bei mehreren Feldern am selben (parallel gemessenen) Sensor den Wert nur einmal anzeigen; Hinweis im Feld, wenn der Sensor mehrfach verknüpft ist
+- PV-Leuchten wird bei gemeinsamem Sensor auf die kWp aller betroffenen Felder bezogen
+- Neu: Solarthermie-Kollektor (Flachkollektor oder Vakuumröhren) fürs Dach – Kollektortemperatur färbt warm, Solarpumpe, Wärmeleistung, Speichertemperatur
+- Neu: Windrad (3 Flügel horizontal, vertikal Helix oder Savonius) – dreht nach Leistung oder Windgeschwindigkeit, richtet sich nach der Windrichtung aus
+
 ## 1.22.0
 - Neu: Wetter, Sonne und Mond außen (Einstellungen → „Wetter, Sonne & Mond")
 - Sonne nach echtem Sonnenstand (Standort aus Home Assistant) mit Tagesbahn, Uhrzeiten und Himmelsrichtungen; Licht und Schatten folgen der Sonne
