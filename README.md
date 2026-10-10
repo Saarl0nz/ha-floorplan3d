@@ -1,8 +1,51 @@
 <img src="brand/icon.png" width="96" align="right" alt="3D Haus">
 
-# 3D-Hausplan für Home Assistant (Sidebar-Panel)
+# 3D Haus – dein Zuhause in 3D für Home Assistant
 
-Version 1.26.0 · eine einzige Datei, keine weiteren Abhängigkeiten (three.js ist eingebaut, läuft offline).
+Version 1.26.0 · Sidebar-Panel für Home Assistant · eine einzige Datei, läuft offline (three.js ist eingebaut)
+
+Baue dein Haus mit Etagen, Räumen, Dach, Garten und Einrichtung in 3D nach und steuere alles direkt im Bild: Licht, Rollläden, Heizung, Fenster, PV-Anlage, Wallbox, Kameras und vieles mehr. Wetter, Sonnenstand und Tageszeit werden live dargestellt.
+
+![Das ganze Haus mit Garten, PV und Sonnenbahn](bilder/haus.jpg)
+
+## Was man damit machen kann
+
+<table>
+<tr>
+<td width="50%"><img src="bilder/etage.jpg" alt="Etagenansicht"><br><b>Etage für Etage</b><br>Haus → Etage → Raum. Die Etagen darüber blenden sich aus, jedes Gerät zeigt seinen Zustand als Symbol: Licht an, Fenster offen, Heizung, Wallbox lädt, Speicher-Ladestand.</td>
+<td width="50%"><img src="bilder/raum.jpg" alt="Raum mit Steuermenü"><br><b>Raum anklicken und steuern</b><br>Alle Geräte des HA-Bereichs in einem Menü: Licht mit Helligkeit und Farbe, Rollläden, Thermostat, Fernseher, Fensterkontakte. Nicht benötigte Geräte lassen sich pro Raum ausblenden.</td>
+</tr>
+<tr>
+<td><img src="bilder/bearbeiten.jpg" alt="Bearbeiten-Modus mit Dach und Gaube"><br><b>Selbst bauen ohne CAD-Kenntnisse</b><br>Räume aufziehen oder aus einem Grundriss-Bild erkennen lassen, Dach frei formen, Gauben, Kniestock, Giebelhöhe, Treppen über mehrere Etagen. Fast 200 Objekte im Katalog.</td>
+<td><img src="bilder/pv.jpg" alt="PV-Feld mit Strings und MPPT"><br><b>PV-Anlage mit Strings und MPPT</b><br>Modulfelder aufs Dach, auf Gauben, Carport, Wand oder Balkon. Module einzeln an/aus, Strings und Wechselrichter-Eingänge zuordnen, kWp wird berechnet. Leistung lässt das Feld leuchten.</td>
+</tr>
+<tr>
+<td><img src="bilder/schnee.jpg" alt="Schnee auf Dach und Modulen"><br><b>Wetter live</b><br>Sonne, Wolken, Regen, Schnee, Hagel, Gewitter, Nebel aus deiner Wetter-Entität. Schnee, Reif, Tau oder Nässe legen sich auf Dach, Module und Garten.</td>
+<td><img src="bilder/nacht.jpg" alt="Nachtansicht mit Sternen"><br><b>Tag und Nacht</b><br>Sonnenbahn nach echtem Sonnenstand, Licht und Schatten folgen der Sonne. Nachts Mond mit aktueller Phase, Sterne und beleuchtete Räume.</td>
+</tr>
+<tr>
+<td><img src="bilder/regen.jpg" alt="Gewitter mit Regen"><br><b>Regen und Gewitter</b><br>Regen fällt mit dem Wind, Blitze erhellen den Himmel, Dach und Module werden nass.</td>
+<td><img src="bilder/split.jpg" alt="3D und 2D nebeneinander"><br><b>3D und Grundriss nebeneinander</b><br>Links 3D, rechts 2D – in beiden Hälften verschieben, drehen und zoomen.</td>
+</tr>
+</table>
+
+<img src="bilder/handy.jpg" width="260" align="right" alt="Handy-Ansicht">
+
+### Auch auf Handy und Tablet
+
+Eigene Ansichten für Desktop, Tablet (quer/hochkant) und Handy – die Bedienung passt sich automatisch an oder wird fest eingestellt.
+
+### Funktionen im Überblick
+
+- **Haus bauen:** Etagen übereinander ausrichten, Räume als Rechteck oder Polygon, Wände, Durchbrüche, Balkone, Terrassen, Kniestock, Dachboden als eigene Etage, Hanggrundstück
+- **Dach:** Satteldach frei formbar, Gauben als Teil des Dachs (mit Schiefer-, Holz- oder Blechverkleidung), Dachfenster, Regenrinnen und Fallrohre je Kante, Schornstein
+- **Grundriss hochladen:** Wände, Räume und Öffnungen werden erkannt und lassen sich nachzeichnen
+- **Fenster und Türen:** 1-/2-flügelig, Festverglasung, Terrassen-, Schiebe-, Haus-, Brandschutz- und Garagentor, Seitenteile und Oberlicht, Rollläden, Fensterbänke
+- **Einrichtung:** Möbel, Küche, Bad (inkl. Vorwand-WC und Duschrinne), Betten, Büro, Technik, Haustiere, Fahrzeuge
+- **Smart Home:** Licht (auch Spot-Felder und Lichtgruppen mit einem Schalter), Rollläden, Heizung, Klima-Split, Wärmepumpe mit Puffer und Warmwasser, Durchlauferhitzer, Kameras mit Livebild, Video-Türklingel, Schaltschrank mit Shelly/Sonoff, Router, Server, Raspberry Pi
+- **Energie:** PV mit Strings/MPPT, Wechselrichter, Speicher, Wallbox, E-Auto, Zähler, Solarthermie, Windrad
+- **Garten:** Rasen, Wege, Einfahrt, Zäune, Hecken, Carport, Terrassendach, Pool, Whirlpool, Grill, Feuerschale, Mähroboter, Mülltonnen mit Abholtermin, Briefkasten, Straße und Nachbarhäuser
+- **Gestaltung:** Designs Automatisch/Tag/Nacht/Neon/Transparent, Wandfarben innen und außen getrennt, Bodenbeläge, Beschriftungen frei verschiebbar oder ausblendbar
 
 ## Installation über HACS
 
@@ -77,7 +120,7 @@ Im Bearbeiten-Modus oben „3D + 2D“ wählen: links 3D, rechts Grundriss. In b
 
 ## Design
 
-Oben in der Leiste: Automatisch (nach Sonnenstand), Tag, Nacht, Neon, Transparent. Unter Menü ⋮ → Einstellungen: Fassadenfarbe, Wandfarbe innen, Wandkrone, Gelände, Hintergrund, Neonfarben. Pro Raum: Bodenbelag (Holz, Holz dunkel, Fischgrät, Fliesen, Fliesen groß, Teppich, Beton, Pflaster, Rasen), Bodenfarbe, Wandfarbe. Pro Dach: Form, Neigung, Farbe, Deckkraft. Pro Tür: Holz, Glasausschnitt, Lichtband, Ganzglas, Glas mit Rahmen sowie Glasart. Pro Fenster: Klarglas, Milchglas, getönt. Freie Wände: massiv, Glas, Brüstung.
+Oben in der Leiste: Automatisch (nach Sonnenstand), Tag, Nacht, Neon, Transparent. Unter Menü ⋮ → Einstellungen: Fassadenfarbe, Wandfarbe innen, Wandkrone, Gelände, Hintergrund, Neonfarben. Pro Raum: Bodenbelag (Holz, Holz dunkel, Fischgrät, Fliesen, Fliesen groß, Teppich, Beton, Pflaster, Rasen), Bodenfarbe, Wandfarbe innen und Fassadenfarbe außen getrennt. Pro Wand: Farbe innen und außen getrennt. Pro Dach: Form, Neigung, Farbe, Deckkraft. Pro Tür: Holz, Glasausschnitt, Lichtband, Ganzglas, Glas mit Rahmen sowie Glasart. Pro Fenster: Klarglas, Milchglas, getönt. Freie Wände: massiv, Glas, Brüstung.
 
 Animationen laufen nur, solange ein Gerät aktiv ist oder sich ein Zustand ändert (Rollladen fährt, Fenster öffnet, Trommel dreht). Im Ruhezustand wird nicht neu gezeichnet. In den Einstellungen ganz abschaltbar.
 
