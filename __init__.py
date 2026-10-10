@@ -31,9 +31,15 @@ def _version() -> str:
 
 
 def _js_path() -> Path:
-    """JS-Datei liegt im Unterordner frontend oder direkt neben dieser Datei."""
-    sub = _DIR / "frontend" / "floorplan3d-panel.js"
-    return sub if sub.exists() else _DIR / "floorplan3d-panel.js"
+    """JS-Datei: neben dieser Datei (HACS-Installation) oder im Unterordner frontend.
+
+    Liegen beide vor (z. B. Reste einer älteren Installation), gewinnt die neuere Datei,
+    damit nach einem Update nie eine veraltete Version geladen wird.
+    """
+    cands = [p for p in (_DIR / "floorplan3d-panel.js", _DIR / "frontend" / "floorplan3d-panel.js") if p.exists()]
+    if not cands:
+        return _DIR / "floorplan3d-panel.js"
+    return max(cands, key=lambda p: p.stat().st_mtime)
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:

@@ -1,5 +1,8 @@
 # Änderungen
 
+## 1.27.1
+- Fix: Bleibt nach einem Update eine alte Panel-Datei im Unterordner `frontend` liegen (Rest einer früheren Installation), wurde diese statt der neuen geladen – jetzt wird immer die neueste Datei verwendet
+
 ## 1.27.0
 - Garagentor: Torart Sektionaltor oder Rolltor (mit Rollkasten und Führungsschienen innen)
 - Garagentor über Taster/Impuls steuerbar (Knopf, Schalter, Skript) – Klick aufs Tor öffnet „Tor auf / zu“, auf Wunsch mit Sicherheitsabfrage (zweimal tippen); Impulsdauer für Schalter einstellbar
