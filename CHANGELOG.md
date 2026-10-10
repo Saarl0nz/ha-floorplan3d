@@ -1,5 +1,11 @@
 # Änderungen
 
+## 1.26.0
+- Neu: Wandfarbe außen (Fassade) pro Raum einstellbar – getrennt von der Wandfarbe innen
+- Neu: einzelne Wand (Raumkante) mit getrennter Farbe innen (Raumseite) und außen (andere Seite); „Farben dieser Wand zurücksetzen“
+- Freie Wände: Farbe Seite 1 und Seite 2 getrennt
+- Kein Flimmern mehr an Hausecken, wenn angrenzende Wände unterschiedliche Farben haben
+
 ## 1.25.0
 - Neu: Raumbeschriftung (Name, Temperatur) frei verschieben – im Bearbeiten-Modus Raum wählen und den lila Punkt ziehen; „Beschriftung zurück in die Raummitte“
 - Beim Verschieben des ganzen Raums wandert die Beschriftung mit
