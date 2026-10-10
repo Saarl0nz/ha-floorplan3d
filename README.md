@@ -2,7 +2,7 @@
 
 # 3D Haus – dein Zuhause in 3D für Home Assistant
 
-Version 1.26.0 · Sidebar-Panel für Home Assistant · eine einzige Datei, läuft offline (three.js ist eingebaut)
+Version 1.27.0 · Sidebar-Panel für Home Assistant · eine einzige Datei, läuft offline (three.js ist eingebaut)
 
 Baue dein Haus mit Etagen, Räumen, Dach, Garten und Einrichtung in 3D nach und steuere alles direkt im Bild: Licht, Rollläden, Heizung, Fenster, PV-Anlage, Wallbox, Kameras und vieles mehr. Wetter, Sonnenstand und Tageszeit werden live dargestellt.
 

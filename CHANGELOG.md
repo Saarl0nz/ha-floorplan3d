@@ -1,5 +1,11 @@
 # Änderungen
 
+## 1.27.0
+- Garagentor: Torart Sektionaltor oder Rolltor (mit Rollkasten und Führungsschienen innen)
+- Garagentor über Taster/Impuls steuerbar (Knopf, Schalter, Skript) – Klick aufs Tor öffnet „Tor auf / zu“, auf Wunsch mit Sicherheitsabfrage (zweimal tippen); Impulsdauer für Schalter einstellbar
+- Torzustand ohne Cover aus Torkontakt (offen/zu) und optional Endlage „ganz offen“ – Tor wird offen, halb offen oder zu dargestellt
+- Raum-Menü: Knöpfe und Skripte haben jetzt „Auslösen“
+
 ## 1.26.0
 - Neu: Wandfarbe außen (Fassade) pro Raum einstellbar – getrennt von der Wandfarbe innen
 - Neu: einzelne Wand (Raumkante) mit getrennter Farbe innen (Raumseite) und außen (andere Seite); „Farben dieser Wand zurücksetzen“
