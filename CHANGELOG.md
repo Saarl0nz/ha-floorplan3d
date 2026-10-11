@@ -1,5 +1,10 @@
 # Änderungen
 
+## 1.30.0
+- PV-Feld: Leistung je String – pro String einen Leistungssensor (W) oder Spannung + Strom zuordnen; die Module jedes Strings leuchten nach ihrer eigenen Leistung
+- Zwei (oder mehr) Strings parallel am selben MPPT: denselben Sensor an beide Strings hängen – die Leistung wird automatisch nach Modulanzahl aufgeteilt (auch über mehrere Modulfelder, z. B. Gaube + Hauptdach)
+- Ohne Gesamtleistungs-Sensor wird die Feldleistung aus den Strings summiert; Label z. B. „2.20 kW · Süd A 1.60 kW · Süd B 300 W“ (abschaltbar)
+
 ## 1.29.1
 - Handy/Tablet hochkant: ein Umschalt-Knopf statt „3D | 2D“ – zeigt immer die andere Ansicht („2D“ in der 3D-Ansicht, „3D“ in der 2D-Ansicht)
 - Handy: Etagen-Reiter im Bearbeiten-Modus stapeln sich nicht mehr untereinander, sondern lassen sich seitlich wischen
