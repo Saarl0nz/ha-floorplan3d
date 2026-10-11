@@ -1,5 +1,21 @@
 # Änderungen
 
+## 1.29.0
+- Neu: Energiefluss – animierte Leitungen von PV/Balkonkraftwerk, Speicher, Stromzähler (Bezug/Einspeisung), Wallbox, Wärmepumpe und Heizstab zum Wechselrichter bzw. Zähler; Richtung und Tempo nach Leistung (Einstellungen → Energiefluss)
+- Sicherheit: Smart Lock, Alarmanlage/Sirene (scharf/unscharf, Code), Tür-/Fensterkontakt, CO-/Gasmelder
+- Klima & Luft: Luftreiniger (PM2.5-Ring), Luftentfeuchter, Luftbefeuchter (Nebel), CO₂-Ampel, Lüftungsanlage (KWL), Heizkörper-Thermostat, FBH-Verteiler mit Stellantrieben, Markise, Raffstore mit Lamellenwinkel
+- Haushalt: Saug-/Wischroboter mit Station (fährt beim Saugen herum), smarte Waage, elektrische Zahnbürste, Wasserkocher, Mikrowelle, Wasser- und Gaszähler, Wasserenthärter (Salzvorrat)
+- Garten: Zisterne/Regentonne mit Füllstand, Gartenhaus, Gewächshaus mit Fensteröffner, Teichpumpe/Springbrunnen, Pool-Wärmepumpe, Poolroboter, Wetterstation (Windrad dreht, Fahne nach Windrichtung), Außensteckdose, Lichterkette
+- Medien: Soundbar, Spielkonsole, Beamer mit Leinwand, Smart Speaker/Display (Echo, Nest, HA Voice)
+- Energie: Heizstab, Zwischenstecker mit Verbrauchsmessung
+- Steuermenü: Alarmanlage, Saugroboter/Mähroboter (Start, Pause, Station), Luftbefeuchter (Zielwert), Ventile, Sirenen
+
+## 1.28.0
+- Neu: Balkonkraftwerk am Geländer oder an der Wand – 1 bis 6 Module, Ausrichtung, Neigung, Modulgröße und -farbe, Mikrowechselrichter
+- Neu: Balkonkraftwerk aufgeständert für Boden, Flachdach oder Garten
+- Optional mit Speicher (am Boden oder hinter dem Modul, z. B. Anker SOLIX, Zendure, EcoFlow) – Ladestand-LEDs, Laden/Entladen
+- Verknüpfbar: PV-Leistung, Einspeisung ins Hausnetz, Speicher-Ladestand und -Leistung, Tagesertrag
+
 ## 1.27.1
 - Fix: Bleibt nach einem Update eine alte Panel-Datei im Unterordner `frontend` liegen (Rest einer früheren Installation), wurde diese statt der neuen geladen – jetzt wird immer die neueste Datei verwendet
 
