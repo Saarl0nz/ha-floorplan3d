@@ -1,5 +1,9 @@
 # Änderungen
 
+## 1.29.1
+- Handy/Tablet hochkant: ein Umschalt-Knopf statt „3D | 2D“ – zeigt immer die andere Ansicht („2D“ in der 3D-Ansicht, „3D“ in der 2D-Ansicht)
+- Handy: Etagen-Reiter im Bearbeiten-Modus stapeln sich nicht mehr untereinander, sondern lassen sich seitlich wischen
+
 ## 1.29.0
 - Neu: Energiefluss – animierte Leitungen von PV/Balkonkraftwerk, Speicher, Stromzähler (Bezug/Einspeisung), Wallbox, Wärmepumpe und Heizstab zum Wechselrichter bzw. Zähler; Richtung und Tempo nach Leistung (Einstellungen → Energiefluss)
 - Sicherheit: Smart Lock, Alarmanlage/Sirene (scharf/unscharf, Code), Tür-/Fensterkontakt, CO-/Gasmelder
