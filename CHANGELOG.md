@@ -1,5 +1,11 @@
 # Änderungen
 
+## 1.31.0
+- Neu: Profile für Benutzer und Geräte (Menü ⋮ → „Benutzer & Geräte (Profile)“, nur für Administratoren)
+- Profil legt fest: sichtbare Etagen, freigegebene Räume, Start-Etage, ob Hausansicht/andere Etagen erlaubt sind und ob bearbeitet werden darf
+- Zuweisung an Home-Assistant-Benutzer oder fest an ein Gerät (z. B. Wand-Tablet im OG zeigt immer nur das Obergeschoss)
+- Nicht freigegebene Etagen werden nicht dargestellt; nicht freigegebene Räume bleiben sichtbar, sind aber ohne Beschriftung und nicht bedienbar
+
 ## 1.30.0
 - PV-Feld: Leistung je String – pro String einen Leistungssensor (W) oder Spannung + Strom zuordnen; die Module jedes Strings leuchten nach ihrer eigenen Leistung
 - Zwei (oder mehr) Strings parallel am selben MPPT: denselben Sensor an beide Strings hängen – die Leistung wird automatisch nach Modulanzahl aufgeteilt (auch über mehrere Modulfelder, z. B. Gaube + Hauptdach)

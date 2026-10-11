@@ -2,9 +2,13 @@
 
 # 3D Haus – dein Zuhause in 3D für Home Assistant
 
-Version 1.30.0 · Sidebar-Panel für Home Assistant · eine einzige Datei, läuft offline (three.js ist eingebaut)
+Version 1.31.0 · Sidebar-Panel für Home Assistant · eine einzige Datei, läuft offline (three.js ist eingebaut)
 
 Baue dein Haus mit Etagen, Räumen, Dach, Garten und Einrichtung in 3D nach und steuere alles direkt im Bild: Licht, Rollläden, Heizung, Fenster, PV-Anlage, Wallbox, Kameras und vieles mehr. Wetter, Sonnenstand und Tageszeit werden live dargestellt.
+
+![Kurzer Rundgang: Haus, Etage, Raum steuern, PV je String, Energiefluss, Wetter, Nacht, Bearbeiten](bilder/demo.gif)
+
+▶ [Video in voller Qualität ansehen (MP4, 38 s)](bilder/demo.mp4)
 
 ![Das ganze Haus mit Garten, PV und Sonnenbahn](bilder/haus.jpg)
 
@@ -45,6 +49,7 @@ Eigene Ansichten für Desktop, Tablet (quer/hochkant) und Handy – die Bedienun
 - **Smart Home:** Smart Lock, Alarmanlage, Saug-/Wischroboter, Luftreiniger, Ent-/Befeuchter, CO₂-Ampel, Lüftungsanlage, Markise, Raffstore, Beamer, Smart Speaker, Licht (auch Spot-Felder und Lichtgruppen mit einem Schalter), Rollläden, Heizung, Klima-Split, Wärmepumpe mit Puffer und Warmwasser, Durchlauferhitzer, Kameras mit Livebild, Video-Türklingel, Schaltschrank mit Shelly/Sonoff, Router, Server, Raspberry Pi
 - **Energie:** animierter Energiefluss zwischen PV, Speicher, Netz und Wallbox, PV mit Strings/MPPT und Leistung je String, Wechselrichter, Speicher, Wallbox, E-Auto, Zähler, Balkonkraftwerk mit/ohne Speicher, Solarthermie, Windrad
 - **Garten:** Rasen, Wege, Einfahrt, Zäune, Hecken, Carport, Terrassendach, Pool, Whirlpool, Grill, Feuerschale, Mähroboter, Mülltonnen mit Abholtermin, Briefkasten, Zisterne mit Füllstand, Gartenhaus, Gewächshaus, Wetterstation, Lichterkette, Straße und Nachbarhäuser
+- **Profile:** pro Benutzer oder Gerät nur bestimmte Etagen/Räume zeigen – z. B. Wand-Tablet nur fürs Obergeschoss
 - **Gestaltung:** Designs Automatisch/Tag/Nacht/Neon/Transparent, Wandfarben innen und außen getrennt, Bodenbeläge, Beschriftungen frei verschiebbar oder ausblendbar
 
 ## Installation über HACS
